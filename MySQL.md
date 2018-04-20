@@ -1,6 +1,6 @@
  # 建表，操作数据库，有tbstudent，tbcourse，tbcs三个表
 
- create table tbstudent(
+ <pre>create table tbstudent(
 stuid INTEGER not null,
 stuname varchar(20) not null,
 stusex bit default 1,
@@ -155,4 +155,4 @@ on t2.sid=t1.stuid;
 select stuname as `姓名`, ifnull(coscount, 0) as `选课数` from TbStudent t1
 left outer join (select sid, count(sid) as coscount from TbSC group by sid) t2 
 on t1.stuid=t2.sid;
-
+</pre>
