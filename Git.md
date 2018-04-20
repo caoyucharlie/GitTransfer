@@ -18,4 +18,6 @@ git push origin 版本号（推送版本）</br>
 git push origin --delete  分支（删除远程分支）</br>
 git tag 查询tag</br>
 git tag -d + tag名 (删除tag)</br>
+git checkout master 切换到master</br>
+
 
