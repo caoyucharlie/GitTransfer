@@ -16,3 +16,6 @@ git branch -d 'file name' 删除分支
 git merge +'分支名' 合并分支 
 git push origin 版本号（推送版本）
 git push origin --delete  分支（删除远程分支）
+git tag 查询tag
+git tag -d + tag名 (删除tag)
+
