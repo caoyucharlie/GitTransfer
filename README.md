@@ -13,4 +13,6 @@ git push -u origin master push master(最好先创建分支再push到分支)
 git branch -b + 'file name' 建立新的分支 
 git merge + 'file name'合并两个分支 
 git branch -d 'file name' 删除分支
-git merge +'分支名' 合并分支
+git merge +'分支名' 合并分支 
+git push origin 版本号（推送版本）
+git push origin --delete  分支（删除远程分支）
